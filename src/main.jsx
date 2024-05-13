@@ -18,7 +18,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <React.StrictMode>
         <Provider store={store}>
             <PersistGate loading={null} persistor={persistor}>
-                <BrowserRouter>
+                <BrowserRouter basename='/bc_react_68_nadia-yanushevska'>
                     <App />
                     <ToastContainer theme="dark" />
                 </BrowserRouter>
